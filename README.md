@@ -85,8 +85,8 @@ LoadTestCyrex/
     TestUser_1_Password=pass1
     TestUser_2_Email=user2@example.com
     TestUser_2_Password=pass2
-    USER_3_EMAIL=user3@example.com
-    USER_3_PASSWORD=pass3
+    TestUser_3_Email=user3@example.com
+    TestUser_3_Password=pass3
     ```
 
 5. Compile the `.proto` files:
@@ -167,8 +167,8 @@ services:
       - TestUser_1_Password=pass1
       - TestUser_2_Email=user2@example.com
       - TestUser_2_Password=pass2
-      - USER_3_EMAIL=user3@example.com
-      - USER_3_PASSWORD=pass3
+      - TestUser_3_Email=user3@example.com
+      - TestUser_3_Password=pass3
 ```
 
 ## Playground Scripts
