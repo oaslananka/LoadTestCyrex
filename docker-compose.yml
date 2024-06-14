@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  loadtestcyrex:
+    build: .
+    ports:
+      - "8089:8089"
+    volumes:
+      - .:/usr/src/app
+    environment:
+      - TestUser_1_Email=user1@example.com
+      - TestUser_1_Password=pass1
+      - TestUser_2_Email=user2@example.com
+      - TestUser_2_Password=pass2
+      - TestUser_3_Email=user3@example.com
+      - TestUser_3_Password=pass3

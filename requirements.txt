@@ -1,0 +1,7 @@
+grpcio
+grpcio-tools
+locust
+python-dotenv
+pyjwt
+mailtm
+grpc-interceptor
